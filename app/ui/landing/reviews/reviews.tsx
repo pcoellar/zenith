@@ -9,7 +9,7 @@ import Slider from "react-slick";
 import Skeleton from "./skeleton";
 
 export default function Reviews(props: ReviewRequest) {
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
   const [reviews, setReviews] = useState<ClientReview[]|undefined>(undefined);
 
   useEffect(() => {
