@@ -36,6 +36,7 @@ export default function RootLayout({
         <title>Directory Landing Page</title>
       </Head>
 
+      <link rel="prefetch" href="/images/banner.webp" />
       <body className={`${poppins.className} antialiased`}>{children}</body>
 
     </html>
