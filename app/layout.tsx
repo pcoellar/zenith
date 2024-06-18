@@ -38,14 +38,6 @@ export default function RootLayout({
 
       <body className={`${poppins.className} antialiased`}>{children}</body>
 
-      <Script src="js/jquery.js" strategy="afterInteractive"></Script>            
-      <Script src="js/bootstrap.min.js" strategy="afterInteractive"></Script>  
-      <Script src="js/bootsnav.js" strategy="afterInteractive"></Script>
-      <Script src="js/feather.min.js" strategy="afterInteractive"></Script>
-      <Script src="js/waypoints.min.js" strategy="afterInteractive"></Script>
-      <Script src="js/slick.min.js" strategy="afterInteractive"></Script>
-      <Script src="js/jquery.counterup.min.js" strategy="lazyOnload"></Script>
-      <Script src="js/custom.js" strategy="lazyOnload"></Script>
     </html>
   );
 }
