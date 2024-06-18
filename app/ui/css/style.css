@@ -193,7 +193,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 
 .welcome-hero {
     position: relative;
-    background:url(./images/welcome-hero/banner.jpg)no-repeat;
+    background:url(./images/welcome-hero/banner.avif)no-repeat;
     background-position:center;
     background-size:cover;
     text-align: center;
@@ -607,7 +607,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     position:relative;
     display: flex;
     align-items: center;
-    background:url(./images/counter/counter-banner.jpg)no-repeat fixed;
+    background:url(./images/counter/counter-banner.avif)no-repeat fixed;
     background-position:center;
     background-size:cover;
     padding:127px 0 120px;
