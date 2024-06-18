@@ -7,7 +7,7 @@ export async function fetchTopicsSummary(category: string, location: string) {
     const data: TopicSummary[] = await new Promise<TopicSummary[]>(resolve => {
         setTimeout(() => {
             resolve(topicsSummary);
-        }, 800);
+        }, 500);
     });
     return data;
 }
