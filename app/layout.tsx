@@ -1,20 +1,13 @@
 import type { Metadata } from "next";
 import "./ui/css/globals.css";
-import "./ui/css/linearicons.css";
-import "./ui/css/animate.css";
 import "./ui/css/flaticon.css";
-import "./ui/css/slick.css";
-import "./ui/css/slick-theme.css";
 import "./ui/css/bootstrap.min.css";
 import "./ui/css/bootsnav.css";
 import "./ui/css/style.css";
 import "./ui/css/responsive.css";
-import "./ui/css/font-awesome.min.css";
-import "./ui/css/responsive.css";
 import "./ui/css/slick-theme.css";
 import "./ui/css/slick.css";
 import { poppins } from '@/app/ui/fonts/fonts';
-import Script from "next/script";
 import Head from "next/head";
 
 export const metadata: Metadata = {
@@ -35,8 +28,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Directory Landing Page</title>
       </Head>
-
-      <link rel="prefetch" href="/images/banner.webp" />
+      <link rel="prefetch" href="/images/welcome-hero/banner.webp" />
       <body className={`${poppins.className} antialiased`}>{children}</body>
 
     </html>

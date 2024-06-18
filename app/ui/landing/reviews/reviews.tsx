@@ -13,10 +13,8 @@ export default function Reviews(props: ReviewRequest) {
   const [reviews, setReviews] = useState<ClientReview[]|undefined>(undefined);
 
   useEffect(() => {
-    console.log("entra1");
     setIsLoading(true);
     fetchClientReviews(props.category, props.location).then((res) => {
-      console.log("res: ", res);
       setReviews(res);
       setIsLoading(false);
     })
