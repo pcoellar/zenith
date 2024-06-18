@@ -7,7 +7,7 @@ export async function fetchTopicsSummary(category: string, location: string) {
     const data: TopicSummary[] = await new Promise<TopicSummary[]>(resolve => {
         setTimeout(() => {
             resolve(topicsSummary);
-        }, 500);
+        }, 5000);
     });
     return data;
 }
@@ -17,7 +17,7 @@ export async function fetchLocations(category: string, location: string) {
     const data: Location[] = await new Promise<Location[]>(resolve => {
         setTimeout(() => {
             resolve(locations);
-        }, 500);
+        }, 8000);
     });
     return data;
 }
@@ -26,7 +26,7 @@ export async function fetchClientReviews(category: string, location: string) {
     const data: ClientReview[] = await new Promise<ClientReview[]>(resolve => {
         setTimeout(() => {
             resolve(clientReviews);
-        }, 500);
+        }, 8000);
     });
     return data;
 }
@@ -36,7 +36,7 @@ export async function fetchStatistics(category: string, location: string) {
     const data: Statistic[] = await new Promise<Statistic[]>(resolve => {
         setTimeout(() => {
             resolve(statistics);
-        }, 500);
+        }, 8000);
     });
     return data;
 }
@@ -46,7 +46,7 @@ export async function fetchBlogs(category: string, location: string) {
     const data: Blog[] = await new Promise<Blog[]>(resolve => {
         setTimeout(() => {
             resolve(blogs);
-        }, 500);
+        }, 8000);
     });
     return data;
 }
