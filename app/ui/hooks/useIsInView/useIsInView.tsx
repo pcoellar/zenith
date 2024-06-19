@@ -5,6 +5,10 @@ export default function useIsInView(element: React.RefObject<any>): boolean {
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
+        
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+          };        
     },[]);
 
     const handleScroll = () => {
