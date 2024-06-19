@@ -13,12 +13,12 @@ export default function Index(props: ExploreRequest) {
       </div>
       <div className="explore-content">
         <div className="row">
-            <Suspense key={props.category + props.location} fallback={<Skeleton />}>
-                <Explore category={props.category} location={props.location}/>
-            </Suspense>
-            </div>
-          </div>
+          <Suspense key={props.category + props.location} fallback={<Skeleton />}>
+            <Explore category={props.category} location={props.location}/>
+          </Suspense>
         </div>
+      </div>
+    </div>
     </section>
   );
 }

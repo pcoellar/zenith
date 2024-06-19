@@ -27,6 +27,7 @@ export default function Reviews(props: ReviewRequest) {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplaySpeed: 1500,
+    adaptiveHeight: true,
     responsive: [
       {
         breakpoint: 1440,
@@ -58,8 +59,8 @@ export default function Reviews(props: ReviewRequest) {
   
   return (
     <>
-    <div className="reviews-content">
-        <div className="testimonial-carousel flex flex-col">
+    <div className="">
+        <div className="">
         {
           isLoading ? 
           <Skeleton />

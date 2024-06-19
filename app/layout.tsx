@@ -4,6 +4,7 @@ import "./ui/css/flaticon.css";
 import "./ui/css/bootstrap.min.css";
 import "./ui/css/bootsnav.css";
 import "./ui/css/style.css";
+import "./ui/css/font-awesome.min.css";
 import "./ui/css/responsive.css";
 import "./ui/css/slick-theme.css";
 import "./ui/css/slick.css";
