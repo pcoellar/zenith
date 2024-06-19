@@ -47,7 +47,7 @@ export default function Index() {
                 <div className="welcome-hero-form">
                   <div className="single-welcome-hero-form">
                     <h3>what?</h3>
-                    <form action="index.html">
+                    <form>
                       <input type="text" placeholder="Ex: palce, resturent, food, automobile"
                        onChange={(e) => handleCategoryInput(e.target.value)} 
                        defaultValue={searchParams.get('category')?.toString()}/>
@@ -58,7 +58,7 @@ export default function Index() {
                   </div>
                   <div className="single-welcome-hero-form">
                     <h3>location</h3>
-                    <form action="index.html">
+                    <form>
                       <input type="text" placeholder="Ex: london, newyork, rome" 
                       onChange={(e) => handleLocationInput(e.target.value)} 
                       defaultValue={searchParams.get('location')?.toString()}/>

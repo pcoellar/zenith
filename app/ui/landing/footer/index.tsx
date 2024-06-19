@@ -9,7 +9,7 @@ export default function Index() {
                      <div className="row">
                        <div className="col-sm-3">
                           <div className="navbar-header">
-                            <Link className="navbar-brand" href="index.html">list<span>race</span></Link>
+                            <Link className="navbar-brand" href="">list<span>race</span></Link>
                         </div>
                        </div>
                        <div className="col-sm-9">
