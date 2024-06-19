@@ -30,7 +30,7 @@ export default function Index() {
             <div className="row">
               <div className="col-sm-12">
                 <div className="subscription-input-group">
-                  <form action={dispatch} method="post">
+                  <form action={dispatch}>
                     <input id="email" name="email" type="email" className="subscription-input-form mb-12" placeholder="Enter your email here" ref={inputEmail}/>
                     <div id="customer-error" aria-live="polite" aria-atomic="true">
                       {state && state.errors && state.errors?.email &&
