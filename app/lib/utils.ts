@@ -3,7 +3,7 @@ export const formatRating = (rating: number) => {
 }
 
 export const formatCountK = (count: number) => {
-    return (count / 1000).toFixed(0);
+    return parseInt((count / 1000).toFixed(0));
 }
 
 export function formatMonthYear(date: Date) {
